@@ -1,0 +1,132 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="{% static 'css/using2.css' %}">
+	<link rel="icon" type="image/png" href="wav.png"> 
+	<title></title>
+
+</head>
+	
+
+<body>
+	<div class = "wrapper">
+		{% include 'navbar.html' %}
+
+		
+
+
+<div class="image_text">
+			<div class="text_on_image">
+				<p> Все про дрони</p>
+			</div>
+			<div class="mask"></div>
+			<div class="image">
+				<img src="{% static 'image/using.png' %}">
+			</div>
+		</div>
+
+		<div class = "void"></div>
+
+<div class = "content">
+
+			<div class="different_using">
+
+
+				<div class="using1">
+					<h1 class="using_texth1">Іграшка</h1>
+					<img src="https://www.tourprom.ru/site_media/images/upload/2018/10/5/newsphoto/dron.jpg">
+					<div class = "using1_text">
+						
+						<p class="using_textp">Так, багато хто вважає, що дрони це іграшки, як машинки на радіоуправлінні. В деякій мірі так. Це дуже цікава річ, дрон може робити багато чого, не лише літати, якщо постаратися можна виконувати такі трюки, що вертольотикам i не снились. </p>
+					</div>
+				</div>
+
+				<div class="using2">
+					<h1 class="using_texth1">Cпорт</h1>
+					<img src="https://o.aolcdn.com/hss/storage/
+					midas/54d1b92531537142a9df2883bd95fbc/206536710/drones-ed">
+					
+					<div class = "using2_text">
+						<p class="using_textp">Зараз відбуваються навіть гонки дронів Drone Racing, вони дуже захоплюючі, а швидкість та віртуозність заворожують.</p>
+					</div>
+					<video autoplay muted loop>
+						<source src="{% static 'video/drone.mp4' %}" type="video/mp4">
+						<source src="{% static 'video/drone.webm' %}" type="video/webm">
+						<iframe src="https://www.youtube.com/embed/bITjRQCGEug?autoplay=1&loop=1"frameborder="0" allowfullscreen></iframe>
+					</video>
+					
+				</div>
+
+				<div class="using3">
+					<h1 class="using_texth1">Доставка</h1>
+					<img src="https://brain.com.ua/static/articles/images/2018/08/29/c293af4911928a312d2e5c579aa02f8f.jpg">
+					<div class = "using3_text">
+						
+						<p class="using_textp">Дронів використовують для доставки почти. В деяких країнах Amazon практикує такий новітній метод доставки, й робить це успішно.</p>
+					</div>
+				</div>
+
+				<div class="using4">
+					<h1 class="using_texth1">Полив</h1>
+					<img src="https://travelite.com.ua/wp-content/uploads/elementor/thumbs/shutterstock_772071496_771x517-o7itdke4sxnyhq8zvdxif8otssrmyjrfrxoc2skgww.jpg">
+					
+					<div class = "using4_text">
+						
+						<p class="using_textp">На великихполях використовують метод поливу рослин за допомогою дронів, через що відпадає потреба в дооовгих прямих трубах з водою, для яких ще потрібен сильний насос. З дронами все простіше, залив води в бак і полетів.</p>
+					</div>
+				</div>
+
+				<div class="using5">
+					<h1 class="using_texth1">Військовий розвідник</h1>
+					<img src="https://img2.eadaily.com/c600x369/o/9da/5ce7e73cb772fb5c417ba2ebfc7e9.jpeg">
+					<div class = "using5_text">
+						
+						<p class="using_textp">Безпілотники дають воєнним можливість якісного сканування території та можливості відпускати його на прямий штурм без ризику для життя пілота.</p>
+					</div>
+				</div>
+
+				<div class="using6">
+					<h1 class="using_texth1">Таксі</h1>
+					<img src="https://brain.com.ua/static/articles/images/2018/08/29/8936660c6b2f83fd2feac8232fd4aeb5.jpg">
+					<div class = "using6_text">
+						
+						<p class="using_textp">Ведется розробка та тести дрона за допомогою якого буде можливе зручне та дешевше пересування по великим мегаполісам. Компанія Uber дає послуги перевезення вертольотом, проте коштуя це дорого, а дрони стануть чимось між машинами та вертольотома, пересуваючись в повітрі та коштуючи дешевше.</p>
+					</div>
+				</div>
+				<div class="using7">
+					<div class="using8">
+						<h1 class="using_texth1">Зйомка</h1>
+						<img src="https://brain.com.ua/static/articles/images/2018/08/29/1d3a380c0b522e69b4ad75910cda5685.jpg">
+						<div class = "using8_text">
+							
+							<p class="using_textp">Зараз зйомка за допомогою дронів стала повноцінним мистецтвом. Дрони дають можливість проводити зйомки практично будьякої складності. Зараз дрони асоціюються по більшості із зйомкою, тисячи відео, сотні камер, стабілізаторів для дронів, компанії все покращують і покращують цей момент, а наявність камери є  настількіж важливою, як наявність моторів.</p>
+						</div>
+						<div class="using9">
+							<img src="https://brain.com.ua/static/articles/images/2018/08/29/89d6524ead292db2c258ac1d76695663.jpg">
+							<div class = "using9_text">
+								<p class="using_textp">В багатьох країнах вже через це потрібно регеструвати свій дрон та мати дозвіл на політ. Навіть на гонках дронів, де швидкість та маневреність є пріоритетом, камери залишають.</p>
+							</div>
+						</div>
+						<iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/7S7smPw9EiE?autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class = "void" ></div>
+
+		{% include 'footer.html' %}
+
+	</div>
+
+
+</body>
+</html>

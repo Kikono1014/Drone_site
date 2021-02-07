@@ -1,0 +1,124 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="{% static 'css/structure1.css' %}">
+	<link rel="icon" type="image/png" href="wav.png"> 
+	<title></title>
+
+</head>
+	
+
+<body>
+	<div class = "wrapper">
+		{% include 'navbar.html' %}
+
+		
+
+
+
+<div class="image_text">
+			<div class="text_on_image">
+				<p> Все про дрони</p>
+			</div>
+			<div class="mask"></div>
+			<div class="image">
+				<img src="{% static 'image/structure.png' %}">
+			</div>
+		</div>
+
+		<div class = "void"></div>
+
+<div class = "content">
+
+
+			<div class="drone_body">
+				<div class="structure1">
+					<h1 class="structure_texth1">Корпус</h1>
+					<img src="https://i.imgur.com/PnBRQfo.png">
+					<div class = "structure1_text">						
+						<p class="structure_textp">Корпус по стандарту складается з центральної частини де знаходиться модулі управління та акамулятор та променів з площадками для моторів.</p>
+					</div>
+				</div>
+
+				<div class="structure2">
+					<img src="https://i.imgur.com/9CmBpYo.png">
+					<div class = "structure2_text">						
+						<p class="structure_textp">Корпуса бувають різного типу, Н-подібні, Х-подібні, Х-подібні подовжені та коробкоподібні, всі вони використовуються певних задач.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="drone_brain">
+				<div class="structure4">
+					<h1 class="structure_texth1">Центр керувань</h1>
+					<img src="https://ae01.alicdn.com/kf/H18bd9b13dfb94b1f86996918e068c0764/Betaflight-F4-V3S-OSD-TF.jpg_q50.jpg">
+					<div class = "structure4_text">						
+						<p class="structure_textp">Центр керування це головна частина дрона, його мозок, у ньому знаходится вся його суть. Звичайними літальними пристроями керує людина, а дрон це автономний пристрій, тому у ньому є плата контролю, вона проводить обрахунки та контролює інші частини дрона.</p>
+					</div>
+				</div>
+
+				<div class="structure5">
+					<img src="https://i.imgur.com/SB6xRaV.png">
+					<div class = "structure5_text">						
+						<p class="structure_textp">Також тут є гіроскоп. Він відслідковує наклон дрона та передає данні до плати керування, що обраховує ці данні та коректує дрон в повітрі.</p>
+					</div>
+				</div>
+
+				<div class="structure6">
+					<img src="https://i.imgur.com/pHQjeWo.png">
+					<div class = "structure6_text">						
+						<p class="structure_textp">Радіо приймач це модуль що зв'язує пульт дистанційного керування з платою.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="drone_arms">
+				<div class="structure7">
+					<h1 class="structure_texth1">Промені</h1>
+					<img src="https://i.imgur.com/dDhhy4D.png">
+					<div class = "structure7_text">						
+						<p class="structure_textp">Промінь це частина дрона на якій закріплено мотор.</p>
+					</div>
+				</div>
+
+				<div class="structure8">
+					<img src="https://i.imgur.com/8nvaywS.png">
+					<div class = "structure8_text">						
+						<p class="structure_textp">Мотор з лопастю. За допомогою них дрон піднімається в повітря.</p>
+					</div>
+				</div>
+
+				<div class="structure9">
+					<img src="https://i.imgur.com/SuKwjK8.png">
+					<div class = "structure9_text">						
+						<p class="structure_textp">Контролер мотора за допомогою нього плата керування керує швидкістю обертів мотора та захищає його від поломок</p>
+					</div>
+				</div>
+				<div class="structure10">
+					<img src="https://dronomania.ru/wp-content/uploads/2019/05/X-configuration-UAV.jpg">
+					<div class = "structure10_text">						
+						<p class="structure_textp">Особливим є система моторів та лопастей. Вони повинні крутитись в різні сторони, передній лівий за часовою стрілкою, на інших по колу змінюется в протилежному напрямку. Лопасті повинні бути дві звичайні та 2 реверсивні, звичайні повинні крутитись проти часової, а реверсивні за часовою стрілкою. Саме так утворюється потрібна сила для підняття квадрокоптера угору. </p>
+					</div>
+				</div>
+				
+			</div>
+				
+
+		</div>
+
+
+		<div class = "void" ></div>
+
+		{% include 'footer.html' %}
+
+	</div>
+
+
+</body>
+</html>
